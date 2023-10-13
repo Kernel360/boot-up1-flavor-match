@@ -23,7 +23,7 @@
 
 ## ERD
 
-
+![image](ERD.png)
 
 ## 개발 환경
 
