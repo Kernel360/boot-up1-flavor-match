@@ -24,6 +24,7 @@
 ## ERD
 
 ![image](ERD.png)
+![image](ERD-cassandra.png)
 
 ## 개발 환경
 
