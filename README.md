@@ -13,20 +13,20 @@
 ![image](https://github.com/Kernel360/boot-up1-1team/assets/101683784/252fcb4f-49c5-4b06-9232-3dcd870967af)
 ![image](https://github.com/Kernel360/boot-up1-1team/assets/101683784/2a40f650-c558-4c54-a14b-e2b7def7d648)
 
-
-
 ## 기능 명세서
 
 [🧾기능 명세서](https://www.notion.so/4bc09804af7d46649bfa58cbdc06533f?pvs=21)
 
 ## 시스템 아키텍처
 
+![image](https://github.com/Kernel360/boot-up1-1team/assets/101683784/f4096f7a-6e28-49dc-92db-129f7885864d)
+
 ## ERD
+
+
 
 ## 개발 환경
 
 ## 서비스 흐름도
 
 ## API 목록
-
-##TEST
