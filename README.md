@@ -122,14 +122,8 @@ api list
 Method: POST
 ```json
 {
-    "username": "닉네임",
-    "name": "김커널",
     "email": "kkk@gmail.com",
-    "age": 30,
-    "gender": "Other",
     "password": "12345678",
-    "nation_code": "US"
-
 }
 ```
 ##### Response
@@ -138,7 +132,7 @@ Body:
 ```json
 {
     "status": "success",
-    "message": "User successfully registered.",
+    "message": "User successfully signed in.",
     "data": {
         "id": "아이디",
         "username": "닉네임",
