@@ -92,7 +92,7 @@ api list
 ---
 ### API 사용 방법
 #### 회원 가입
-
+##### 엔드포인트 : /api/sign-up
 ##### Request
 ```json
 {
@@ -114,11 +114,48 @@ api list
   "registration_date": "2023-09-20"
 }
 ```
+---
 
-#### 내 리뷰 리스트 조회
+#### 회원 로그인
+##### 엔드포인트  /api/login
 ##### Request
+Method: POST
+```json
+{
+    "username": "닉네임",
+    "name": "김커널",
+    "email": "kkk@gmail.com",
+    "age": 30,
+    "gender": "Other",
+    "password": "12345678",
+    "nation_code": "US"
 
-- URL: /api/myreviews/{user-id}
+}
+```
+##### Response
+201 Created
+Body:
+```json
+{
+    "status": "success",
+    "message": "User successfully registered.",
+    "data": {
+        "id": "아이디",
+        "username": "닉네임",
+        "name": "이름",
+        "email": "kkk@gmail.com",
+        "age": 30,
+        "gender": "Other",
+        "nation_code": "US"
+	}
+}
+```
+---
+#### 내 리뷰 리스트 조회
+##### 엔드포인트  /api/myreviews/{user-id}
+##### Request
+Method : GET
+Parameter : user_id
 
 ##### Response
 ```json
@@ -148,7 +185,7 @@ api list
 }
 ```
 
-#### 식당 검색
+---
 
 #### 내 북마크 조회
 ##### 엔드포인트  /api/myfavorites/{user-id}/reviews
@@ -172,13 +209,13 @@ Body:
 	}
 }
 ```
+---
 
 #### 식당 리뷰 리스트 조회
 ##### 엔드포인트  /api/{restaurant_id}/reviews
 ##### Request 
 Method: GET
 parameter: restaurant_id
-
 
 ##### Response
 ```json
