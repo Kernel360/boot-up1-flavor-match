@@ -94,44 +94,109 @@ api list
 #### 회원 가입
 
 ##### Request
-'''json
+```json
 {
 "id": "flavor-match",
 "password": "#######",
 "username": "Kim",
-"age": 25,
-"sex": male,
-"religion": None
+"age": "25",
+"sex": "male",
+"religion": "No",
+"language": "kr"
 }
-'''
+```
 ##### Response
-'''json
+```json
 {
   "status": "success",
   "message": "회원가입이 성공적으로 완료되었습니다.",
   "user_id": 12345,
   "registration_date": "2023-09-20"
 }
-'''
-
-
-#### 회원 로그인
-
-
-#### 회원 소셜 로그인
-
-
+```
 
 #### 내 리뷰 리스트 조회
+##### Request
 
+- URL: /api/myreviews/{user-id}
+
+##### Response
+```json
+{
+  "status": "success",
+  "message": "회원별 리뷰 리스트 호출이 완료되었습니다.",
+  "reviews": [
+    {
+      "restaurant_id": 305,
+      "restaurant_review_id": 123498723,
+      "star_coount": 5,
+      "review_text": "점심시간에 잠깐 다녀온 곳인데 사장님이 친절하고 맛있었어요 ..."
+    },
+    {
+      "restaurant_id": 501,
+      "restaurant_review_id": 4564898723,
+      "star_coount": 4,
+      "review_text": "직장인 가성비 맛집 ..."
+    },
+    {
+      "restaurant_id": 6745,
+      "restaurant_review_id": 8797898723,
+      "star_coount": 5,
+      "review_text": "분위기 좋은 곳 ..."
+    }
+  ]
+}
+```
 
 #### 식당 검색
 
-
-
 #### 내 북마크 조회
-
-
+##### 엔드포인트  /api/myfavorites/{user-id}/reviews
+##### Request
+Method: GET
+parameter : user_id 리뷰어
+##### Response
+Body:
+```json
+{
+    "status": "success",
+    "data": {
+        "restaurants": [
+            {
+                "user_id": "나",
+                "restuarant_id":"솔향기"
+                "star_score": 4.7,
+                "review_cnt": 320
+            },,,,
+		]
+	}
+}
+```
 
 #### 식당 리뷰 리스트 조회
+##### 엔드포인트  /api/{restaurant_id}/reviews
+##### Request 
+Method: GET
+parameter: restaurant_id
 
+
+##### Response
+```json
+{
+    "status": "success",
+    "data": {
+        "restaurants": [
+            {
+                "name": "솔향기",
+                "owner_id": "건물주123",
+                "coordinate": {
+                },
+                "open_time": "00:00",
+                "close_time": "00:00",
+                "star_score": 4.7,
+                "review_cnt": 320
+            },,,,
+		]
+	}
+}
+```
