@@ -92,7 +92,7 @@ api list
 ---
 ### API 사용 방법
 #### 회원 가입
-
+##### 엔드포인트 : /api/sign-up
 ##### Request
 ```json
 {
@@ -152,9 +152,10 @@ Body:
 ```
 ---
 #### 내 리뷰 리스트 조회
+##### 엔드포인트  /api/myreviews/{user-id}
 ##### Request
-
-- URL: /api/myreviews/{user-id}
+Method : GET
+Parameter : user_id
 
 ##### Response
 ```json
@@ -215,7 +216,6 @@ Body:
 ##### Request 
 Method: GET
 parameter: restaurant_id
-
 
 ##### Response
 ```json
