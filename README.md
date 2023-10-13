@@ -14,7 +14,7 @@
 ## 개발 환경
 
 ## 서비스 흐름도
-![image](https://github.com/Kernel360/boot-up1-1team/assets/118032886/ae5dead0-2a37-4a21-873a-ac01e3dc60e9)
+![image](https://github.com/Kernel360/boot-up1-flavor-match/assets/118032886/4626a112-8b74-4f36-89d7-2cc84b958f8f)
 
 ## API 목록
 
