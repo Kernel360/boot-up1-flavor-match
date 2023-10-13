@@ -16,8 +16,6 @@
 ## 서비스 흐름도
 
 ## API 목록
-Certainly! Here’s your API specification transformed into markdown tables:
-
 ### **Views**
 
 | Kind  | URL            | Method | Description                      |
@@ -53,7 +51,27 @@ Certainly! Here’s your API specification transformed into markdown tables:
 |       | `/api/{restaurant_id}/{restaurant-review-id}` | DELETE   | 식당에 연관된 댓글 삭제              |
 
 ---
+### API 사용 방법
+#### 회원 가입
 
-You can copy and paste this markdown directly into your documentation.
+#### 회원 로그인
+
+
+#### 회원 소셜 로그인
+
+
+
+#### 내 리뷰 리스트 조회
+
+
+#### 식당 검색
+
+
+
+#### 내 북마크 조회
+
+
+
+#### 식당 리뷰 리스트 조회
 
 ##TEST
