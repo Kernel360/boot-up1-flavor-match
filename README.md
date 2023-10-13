@@ -15,6 +15,8 @@
 
 ## 기능 명세서
 
+[🧾기능 명세서](https://www.notion.so/4bc09804af7d46649bfa58cbdc06533f?pvs=21)
+
 ## 시스템 아키텍처
 
 ## ERD
