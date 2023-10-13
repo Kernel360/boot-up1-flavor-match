@@ -1,4 +1,4 @@
-# flavor-match 
+# 플레이버 매치
 
 ![image](logo.png)
 
