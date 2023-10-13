@@ -60,9 +60,10 @@
 "id": "flavor-match",
 "password": "#######",
 "username": "Kim",
-"age": 25,
-"sex": male,
-"religion": None
+"age": "25",
+"sex": "male",
+"religion": "No",
+"language": "kr"
 }
 ```
 ##### Response
