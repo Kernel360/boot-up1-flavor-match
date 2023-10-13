@@ -28,6 +28,26 @@
 
 ## 개발 환경
 
+### FrontEnd
+![Static Badge](https://img.shields.io/badge/language-javascript-yellow)
+![Static Badge](https://img.shields.io/badge/framework-react_native-blue)
+
+### BackEnd
+![Static Badge](https://img.shields.io/badge/language-java-blue)
+![Static Badge](https://img.shields.io/badge/framework-spring_boot-green)
+![Static Badge](https://img.shields.io/badge/framework-hadoop-yellow)
+![Static Badge](https://img.shields.io/badge/ORM-JPA-red)
+
+### Database
+![Static Badge](https://img.shields.io/badge/DB-mysql-blue)
+![Static Badge](https://img.shields.io/badge/DB-cassandra-blue)
+
+### External library, API
+![Static Badge](https://img.shields.io/badge/library-i18n-white)
+![Static Badge](https://img.shields.io/badge/library-moneta-red)
+![Static Badge](https://img.shields.io/badge/API-Java_Exchange_Rate_API-red)
+![Static Badge](https://img.shields.io/badge/API-Google_Places_API-green)
+
 ## 서비스 흐름도
 ![image](https://github.com/Kernel360/boot-up1-flavor-match/assets/118032886/4626a112-8b74-4f36-89d7-2cc84b958f8f)
 
