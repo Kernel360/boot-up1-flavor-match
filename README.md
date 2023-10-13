@@ -76,15 +76,40 @@
 }
 ```
 
-
-#### 회원 로그인
-
-
-#### 회원 소셜 로그인
-
-
-
 #### 내 리뷰 리스트 조회
+##### Request
+
+- URL: /api/myreviews/{user-id}
+
+##### Response
+```json
+{
+  "status": "success",
+  "message": "회원별 리뷰 리스트 호출이 완료되었습니다.",
+  "reviews": [
+    {
+      "restaurant_id": 305,
+      "restaurant_review_id": 123498723,
+      "star_coount": 5,
+      "review_text": "점심시간에 잠깐 다녀온 곳인데 사장님이 친절하고 맛있었어요 ..."
+    },
+    {
+      "restaurant_id": 501,
+      "restaurant_review_id": 4564898723,
+      "star_coount": 4,
+      "review_text": "직장인 가성비 맛집 ..."
+    },
+    {
+      "restaurant_id": 6745,
+      "restaurant_review_id": 8797898723,
+      "star_coount": 5,
+      "review_text": "분위기 좋은 곳 ..."
+    }
+  ]
+}
+```
+
+
 
 
 #### 식당 검색
