@@ -49,7 +49,7 @@
 ![Static Badge](https://img.shields.io/badge/API-Google_Places_API-green)
 
 ## 서비스 흐름도
-![image](https://github.com/Kernel360/boot-up1-flavor-match/assets/118032886/4626a112-8b74-4f36-89d7-2cc84b958f8f)
+![image](https://github.com/Kernel360/boot-up1-flavor-match/assets/118032886/0dcbb128-36e5-4225-94ff-7a4b572952f0)
 
 ## API 목록
 
