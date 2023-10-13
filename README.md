@@ -122,34 +122,13 @@ api list
 Method: POST
 ```json
 {
-    "username": "닉네임",
-    "name": "김커널",
     "email": "kkk@gmail.com",
-    "age": 30,
-    "gender": "Other",
     "password": "12345678",
-    "nation_code": "US"
-
 }
 ```
 ##### Response
-201 Created
-Body:
-```json
-{
-    "status": "success",
-    "message": "User successfully registered.",
-    "data": {
-        "id": "아이디",
-        "username": "닉네임",
-        "name": "이름",
-        "email": "kkk@gmail.com",
-        "age": 30,
-        "gender": "Other",
-        "nation_code": "US"
-	}
-}
-```
+
+
 ---
 #### 내 리뷰 리스트 조회
 ##### 엔드포인트  /api/myreviews/{user-id}
