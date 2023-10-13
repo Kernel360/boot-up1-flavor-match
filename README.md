@@ -54,6 +54,28 @@
 ### API 사용 방법
 #### 회원 가입
 
+##### Request
+'''json
+{
+"id": "flavor-match",
+"password": "#######",
+"username": "Kim",
+"age": 25,
+"sex": male,
+"religion": None
+}
+'''
+##### Response
+'''json
+{
+  "status": "success",
+  "message": "회원가입이 성공적으로 완료되었습니다.",
+  "user_id": 12345,
+  "registration_date": "2023-09-20"
+}
+'''
+
+
 #### 회원 로그인
 
 
