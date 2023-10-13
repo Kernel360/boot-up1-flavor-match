@@ -237,3 +237,5 @@ parameter: restaurant_id
 	}
 }
 ```
+
+## 참여자
