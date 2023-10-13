@@ -117,9 +117,51 @@
 
 
 #### 내 북마크 조회
-
-
+##### 엔드포인트  /api/myfavorites/{user-id}/reviews
+##### Request
+Method: GET
+parameter : user_id 리뷰어
+##### Response
+Body:
+```json
+{
+    "status": "success",
+    "data": {
+        "restaurants": [
+            {
+                "user_id": "나",
+                "restuarant_id":"솔향기"
+                "star_score": 4.7,
+                "review_cnt": 320
+            },,,,
+		]
+	}
+}
+```
 
 #### 식당 리뷰 리스트 조회
+##### 엔드포인트  /api/{restaurant_id}/reviews
+##### Request 
+Method: GET
+parameter: restaurant_id
 
-##TEST
+##### Response
+```json
+{
+    "status": "success",
+    "data": {
+        "restaurants": [
+            {
+                "name": "솔향기",
+                "owner_id": "건물주123",
+                "coordinate": {
+                },
+                "open_time": "00:00",
+                "close_time": "00:00",
+                "star_score": 4.7,
+                "review_cnt": 320
+            },,,,
+		]
+	}
+}
+```
