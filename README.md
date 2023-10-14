@@ -239,3 +239,6 @@ parameter: restaurant_id
 ```
 
 ## 참여자
+Name : Min son
+Like : Coding
+Hate : Not Coding
