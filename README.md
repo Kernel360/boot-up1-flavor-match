@@ -233,3 +233,6 @@ parameter: restaurant_id
 ```
 
 ## 참여자
+
+- 김찬규 | https://www.github.com/cgk95 | kjkj5868@gmail.com
+  
