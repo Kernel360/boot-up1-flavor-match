@@ -233,3 +233,4 @@ parameter: restaurant_id
 ```
 
 ## 참여자
+박석희 | https://github.com/stoneHee99
