@@ -233,4 +233,11 @@ parameter: restaurant_id
 ```
 
 ## 참여자
-박석희 | https://github.com/stoneHee99
+
+- 박석희 | https://github.com/stoneHee99
+- Name : Min son
+Like : Coding
+Hate : Not Coding
+
+- 김찬규 | https://www.github.com/cgk95 | kjkj5868@gmail.com
+
