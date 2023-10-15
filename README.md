@@ -161,19 +161,19 @@ Parameter : user_id
       "restaurant_id": 305,
       "restaurant_review_id": 123498723,
       "star_coount": 5,
-      "review_text": "점심시간에 잠깐 다녀온 곳인데 사장님이 친절하고 맛있었어요 ..."
+      "review_text": "점심시간에 잠깐 다녀온 곳인데 사장님이 친절하고 맛있었어요 ....."
     },
     {
       "restaurant_id": 501,
       "restaurant_review_id": 4564898723,
       "star_coount": 4,
-      "review_text": "직장인 가성비 맛집 ..."
+      "review_text": "직장인 가성비 맛집 ....."
     },
     {
       "restaurant_id": 6745,
       "restaurant_review_id": 8797898723,
       "star_coount": 5,
-      "review_text": "분위기 좋은 곳 ..."
+      "review_text": "분위기 좋은 곳 ....."
     }
   ]
 }
