@@ -234,7 +234,8 @@ parameter: restaurant_id
 
 ## 참여자
 
-Name : Min son
+- 박석희 | https://github.com/stoneHee99
+- Name : Min son
 Like : Coding
 Hate : Not Coding
 
